@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pseudo Classes</title>
+        <style>
+            input[type="number"]:out-of-range {
+                border: 2px solid red;
+            }
+            input[type="number"]:in-range {
+                border: 2px solid green;
+            }
+        </style>
+    </head>
+    <body>
+        <input type="number" placeholder="Age" min="5" max="10" >
+    </body>
+</html>
