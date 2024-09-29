@@ -28,6 +28,21 @@
             p::selection{
                 background: yellow;
             }
+            li::marker{
+                color: red;
+            }
+            li{
+                color: green;
+                font-weight: bold;
+            }
+            .c1{
+                list-style: none;
+            }
+            .c1 li::before{
+                content: "\2713";
+                color: red;
+                margin-right: 5px;
+            }
         </style>
     </head>
     <body>
@@ -38,5 +53,18 @@
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, a reprehenderit eos vel eum laborum? Odio unde cumque in mollitia quisquam excepturi temporibus cupiditate cum neque, vero facere! Dolores nemo tenetur dolorum veritatis corporis, earum assumenda illum id quidem ut! Tempore animi repellat veritatis? Nihil nulla natus quos. Delectus neque, magnam modi nemo aspernatur unde magni dolores! Excepturi facere architecto sequi nihil debitis! Sequi, delectus quidem nisi quaerat et cumque atque tempora. Corporis quia minima perferendis, veniam accusamus consequatur sed ipsam saepe facilis esse eius necessitatibus eaque quibusdam aperiam laboriosam corrupti nisi eos beatae est laudantium, sequi voluptas quod aliquid. Iste inventore, officiis molestiae assumenda ipsum velit consequatur saepe dolore, quibusdam adipisci consectetur illum. Quia, quod id odio, veniam hic nisi in molestias consequuntur consequatur delectus sapiente laudantium quisquam quidem recusandae dignissimos tenetur maiores expedita quae nihil amet saepe culpa ratione. Ducimus iure laborum placeat ut quibusdam! Mollitia optio accusamus recusandae corporis, soluta deserunt, ullam qui distinctio, cupiditate nulla laborum quasi provident ut itaque. Maiores nihil ut tenetur aliquid quod eveniet doloremque odio fuga enim nisi autem placeat, quo alias commodi. Ipsa doloremque, accusamus fugit odit, cumque, optio atque odio reiciendis aliquid doloribus facere architecto nisi voluptate numquam non corporis.
         </p>
+        <ul>
+            <li>CSE</li>
+            <li>ECE</li>
+            <li>EEE</li>
+            <li>ELGE</li>
+        </ul>
+
+        <ul class="c1">
+            <li>CSE</li>
+            <li>ECE</li>
+            <li>EEE</li>
+            <li>ELGE</li>
+        </ul>
     </body>
 </html>
