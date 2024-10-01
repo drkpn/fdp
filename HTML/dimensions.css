@@ -1,0 +1,27 @@
+.c1{
+    font-size: 2rem;
+}
+.c2{
+    font-size: 3rem;
+}
+div{
+    font-size: 20pt;
+}
+.c3{
+    font-size: 1.5em; /*Multiplied by Parent Element Size*/
+}
+/*
+rem - from root
+em - from parent
+% - from parent
+*/
+.percent{
+    width: 400px;
+    height: 250px;
+    border: 1px solid red;
+}
+.c4{
+    width: 50%;
+    background: green;
+    color: rgb(255, 0, 0)
+}
